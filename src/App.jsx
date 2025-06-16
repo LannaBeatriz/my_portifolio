@@ -4,15 +4,6 @@ import Lanna from './components/Lanna.jpg'
 function App() {
   return (
     <>
-      <nav className="navbar">
-        <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#experiencias">Experiências</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-
       <header className="header">
         <div className="profile-row">
           <img src={Lanna} alt="Foto de Lanna" className="profile-image" />
@@ -21,6 +12,15 @@ function App() {
             <p className="role">Programadora & Administradora</p>
           </div>
         </div>
+
+        <nav className="navbar">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#experiencias">Experiências</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
       </header>
 
       <section id="profissional" className="professional fade-in">
